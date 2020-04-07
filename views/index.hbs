@@ -1,0 +1,9 @@
+<h1>Users  </h1>
+<ul class="users">
+  {{#each users}}
+    <li>{{this.[0]}}, {{this.[1]}} years</li>
+  {{/each}}
+</ul>
+<button class="add-new-user-button"><a href="/add">Add new user</a></button>
+<button class="delete-user-button"><a href="/delete">Delete user</a></button>
+<button class="update-user-button"><a href="/update">Update user</a></button>

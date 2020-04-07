@@ -1,0 +1,31 @@
+.users{
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+}
+.add-new-user-button{
+    background-color: tomato;
+    border:none;
+    padding:10px;
+    border-radius:3px;
+    margin:10px;
+}
+.add-new-user-button a,.delete-user-button a,.update-user-button a{
+    text-decoration: none;
+    color:white;
+}
+.delete-user-button{
+    background-color: aquamarine;
+    border:none;
+    padding:10px;
+    border-radius:3px;
+    margin:10px;
+}
+.update-user-button{
+    background-color: blueviolet;
+    border:none;
+    padding:10px;
+    border-radius:3px;
+    margin:10px;
+}
